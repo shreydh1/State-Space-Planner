@@ -4,13 +4,13 @@ Usage : java -jar sdhunga2.jar <plugin> -d <domain> -p <problem> [-nl <nodes>] [
 
 Where:
 
-  <plugin> is a jar file containing one subclass of edu.uno.ai.planning.Planner
+  plugin is a jar file containing one subclass of edu.uno.ai.planning.Planner
   
-  <domain> and <problem> are files in PDDL-like format
+  domain and <problem> are files in PDDL-like format
   
-  <nodes> is the optional max number of nodes to visit
+  nodes is the optional max number of nodes to visit
   
-  <millis> is the optional max number of milliseconds to search
+  millis is the optional max number of milliseconds to search
   
   Example : java -jar sdhunga2.jar planning.jar -p benchmarks/cake.pddl 
 
